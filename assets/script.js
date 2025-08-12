@@ -11,7 +11,7 @@ const year = new Date().getFullYear();
 document.getElementById('year').textContent=year;
 
 function download() {
-    window.location='https://www.ilanzou.com/s/W6C0tN44';
+    window.location='https://www.123865.com/s/LQ3eVv-ZdG4';
 }
 
 function TencentQQgroup() {
