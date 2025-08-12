@@ -1,0 +1,115 @@
+body {
+    color: #000000;
+    padding: 0px;
+    margin: 0;
+}
+
+#TopBar {
+    background-color: #f9f9f9;
+    display: flex;
+    padding: 15px 15px 15px 15px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+    align-items: center;
+}
+
+#TopBar .logo {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+
+#TopDiv {
+    padding: 185px 15px 55px 15px;
+}
+
+#TopDiv img {
+    width: 88px;
+    height: 88px;
+    border-radius: 100%;
+}
+
+#TopDiv p {
+    color: #929292;
+    font-weight: bold;
+}
+
+#TopDiv button {
+    margin-top: 35px;
+    padding: 10px 35px 10px 35px;
+    border-radius: 35px;
+    border: 0;
+    font-weight: bold;
+    background-color: #323232;
+    color: #ffffff;
+}
+
+#TopDiv button:active {
+    background-color: #5d5d5d;
+}
+
+#CenterImgDiv {
+    display: flex;
+}
+#CenterImgDiv img {
+    width: 100%;
+}
+
+#CenterDiv {
+    padding: 15px;
+}
+
+#CenterDiv .item {
+    background-color: #f9f9f9;
+    border-radius: 35px;
+    padding: 25px 20px 25px 20px;
+    margin-bottom: 15px;
+}
+
+#CenterDiv .item img{
+    width: 50px;
+    height: 50px;
+}
+#CenterDiv .item div {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#CenterDiv .item:active {
+    background-color: #f4f4f4;
+}
+
+footer {
+    padding: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 760px) {
+    #TopDiv {
+        font-size: 30px;
+        padding: 185px 15px 100px 15px;
+        background-color: #f9f9f9;
+    }
+
+    #TopDiv button {
+        font-size: 28px;
+    }
+    
+    #CenterImgDiv {
+        justify-content: center;
+        background-color: #f9f9f9;
+        padding-bottom: 85px;
+    }
+    #CenterImgDiv img {
+        width: 800px;
+    }
+    
+    #CenterDiv .item {
+        width: 800px;
+    }
+}
