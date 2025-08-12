@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>WebWork | Android mobile Web Code Development Tool</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+
+<body>
+    <!-- 顶部固定栏 -->
+    <div id="TopBar">
+        <img class="logo" src="favicon.png" />
+        <b>WebWork</b>
+    </div>
+    <!-- 上部份信息区域 -->
+    <center id="TopDiv">
+        <img src="./favicon.png" alt="logo" />
+        <h1>Android Web Code Development Tool</h1>
+        <p>Come and join us and explore with us.</p>
+        <button onclick="roll('CenterDiv')">Join us</button>
+    </center>
+    <!-- 中部份图片区域 -->
+    <div id="CenterImgDiv">
+        <img src="./assets/images.png" alt="images" />
+    </div>
+    <!-- 中部份信息区域 -->
+    <center id="CenterDiv">
+        <h2>Join us</h2>
+        <div onclick="download()" class="item">
+            <img src="./assets/TypcnDownload.png" alt="" />
+            <div>Download</div>
+        </div>
+        <div onclick="TencentQQgroup()" class="item">
+            <img src="./assets/UiwQq.png" alt="" />
+            <div>Tencent QQ group</div>
+        </div>
+    </center>
+    <!-- 页面底部区域 -->
+    <footer>
+        <p>Copyright © 2024 - <span id="year"></span> WebWork. All rights reserved.</p>
+    </footer>
+    <script src="./assets/script.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>
